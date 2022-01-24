@@ -25,6 +25,15 @@ public static int FibRecursive(int n) {
 	return(FibRecursive(n - 1) + FibRecursive(n - 2));
 	
 }
+
+/**
+ *   @author ashleyworkstation
+ * In this main method Fib Recursive method was called in
+ * in order to print to print the nth term. In this case 
+ * 10 is passed as the nth term.
+ * WHen the user runs this application it should display 
+ * "The 10th term of Fibonacci sequence is 55"
+ */
 public static void main(String[] args) {
 	 int n = 10;
 	 FibRecursive(n);
